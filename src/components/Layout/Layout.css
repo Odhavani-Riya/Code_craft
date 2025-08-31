@@ -1,0 +1,35 @@
+.sidebar-section{
+    display: flex;
+    background-color: rgba(244, 163, 163, 0.148);
+    
+}
+.sidebar{
+    height: 100vh;
+    background-color: #1e1e2c;
+    width: 90px;
+    position: fixed;
+}
+.sidebar-toggle{
+    width: 200px;
+}
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+.sidebar-toggle-icons p svg{
+    /* background-color: rgb(242, 139, 139); */
+    background-color: rgba(242, 139, 139, 0.696);
+    color: white;
+    margin-top: 30px;
+}
+
+
+/* mobile view */
+
+@media (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
+}
